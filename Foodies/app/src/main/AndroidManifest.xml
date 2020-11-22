@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ucucite.foodies">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sinanglay"></activity>
+        <activity android:name=".fish" />
+        <activity android:name=".nilaga" />
+        <activity android:name=".pork" />
+        <activity android:name=".pastel" />
+        <activity android:name=".adobomanok" />
+        <activity android:name=".bicol" />
+        <activity android:name=".ginataangmanok" />
+        <activity android:name=".fried" />
+        <activity android:name=".soup" />
+        <activity android:name=".parmesan" />
+        <activity android:name=".lollipop" />
+        <activity android:name=".caldereta" />
+        <activity android:name=".adobongputirecipe" />
+        <activity android:name=".chicken" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

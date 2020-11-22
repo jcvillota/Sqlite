@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chicken"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINOY CHICKEN FOOD RECIPES"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+                android:onClick="recipe"
+                android:layout_width="160dp"
+                android:layout_height="197dp"
+                android:layout_gravity="left|top"
+                android:background="@drawable/gradientback"
+                android:text="CHICKEN ADOBONG PUTI"
+                android:textSize="15sp"
+
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="160dp"
+                android:layout_height="197dp"
+                android:onClick="caldereta"
+                android:layout_gravity="left|top"
+                android:background="@drawable/gradientback"
+                android:text="CHICKEN\nCALDERETA"
+                android:layout_marginLeft="30dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="197dp"
+                android:layout_gravity="left|top"
+                android:background="@drawable/gradientback"
+                android:onClick="lollipop"
+                android:text="CHICKEN LOLLIPOP"
+                android:textSize="15sp" />
+
+            <Button
+
+                android:layout_width="154dp"
+                android:layout_height="197dp"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/gradientback"
+                android:onClick="soup"
+                android:text="CHICKEN SOUP"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="20dp">
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="197dp"
+                android:onClick="fried"
+                android:layout_gravity="left|top"
+                android:background="@drawable/gradientback"
+                android:text="QUICK AND EASY\nFRIED CHICKEN"
+                android:textSize="15sp"/>
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="210dp"
+                android:onClick="ginataan"
+                android:layout_gravity="left|top"
+                android:background="@drawable/gradientback"
+                android:text="GINATAANG\nMANOK WITH AMPALAYA"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="197dp"
+                android:layout_gravity="left|top"
+                android:background="@drawable/gradientback"
+                android:onClick="bicol"
+                android:text="CHICKEN BICOL\nEXPRESS"
+                android:textSize="15sp" />
+
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="197dp"
+                android:onClick="adobo"
+                android:layout_gravity="left|top"
+                android:background="@drawable/gradientback"
+                android:text="CHICKEN\nADOBO"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <Button
+
+                android:layout_width="160dp"
+                android:layout_height="197dp"
+                android:onClick="pastel"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/gradientback"
+                android:text="CREAMY CHICKE\nPASTEL"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

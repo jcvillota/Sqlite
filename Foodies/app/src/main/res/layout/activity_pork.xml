@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pork"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINOY PORK FOOD RECIPES"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+                    android:onClick="nilaga"
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="NILAGANG\nBABOY"
+                    android:textSize="15sp"
+
+                    />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="PORK PATATAS at\KAMATIS"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+
+                    android:text="GINILING na\BABOY"
+                    android:textSize="15sp" />
+
+                <Button
+
+                    android:layout_width="153dp"
+                    android:layout_height="197dp"
+
+                    android:layout_gravity="left|top"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/gradientback"
+                    android:text="PORK CHOP "
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="PORK STEAK"
+                    android:textSize="20sp"/>
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="LETSON PAKSIW"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="ADOBONG BABOY"
+                    android:textSize="15sp" />
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="BAGNET\PORK"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp">
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="PORK \nSINIGANG"
+                    android:textSize="15sp"/>
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="PORK \nMENUDO"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="30dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

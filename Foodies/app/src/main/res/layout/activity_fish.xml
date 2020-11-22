@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fish"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINOY PORK FOOD RECIPES"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="SINANGLAY na TILAPIA"
+                    android:textSize="15sp"
+
+                    />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="GINATAANG\TULINGAN"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+
+                    android:text="UKOY na\DULONG"
+                    android:textSize="15sp" />
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="BANGUS SISIG"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="15sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp">
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="GRILLED TUNA\nBELLY"
+                    android:textSize="20sp"/>
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="FRIED\nTILAPIA"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="INIHAW NA BANGUS"
+                    android:textSize="15sp" />
+
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="BAGNET\PORK"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="15sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:layout_marginLeft="10dp">
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="PAKSIW na\nBANGUS"
+                    android:textSize="15sp"/>
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="SALMON\nSINIGANG"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                <Button
+
+                    android:layout_width="160dp"
+                    android:layout_height="197dp"
+                    android:layout_gravity="left|top"
+                    android:background="@drawable/gradientback"
+                    android:text="TUNA\nSISIG"
+                    android:textSize="15sp"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
